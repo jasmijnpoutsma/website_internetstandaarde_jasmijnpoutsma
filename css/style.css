@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Modak&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Warnes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Modak&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Warnes&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #001A4B;
+}
+
+header {
+    background-color: #001A4B;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1 {
+    color: #F7B738;
+    font-family: "Chewy", system-ui;
+    font-size: xx-large;
+    margin: 2em;
+    padding: 1em;
+    border: 2px dashed rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: #F7B738;
+    font-family: "Outfit", sans-serif;
+}
+
+h3 {
+    color: #F7B738;
+    padding: 1em;
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.center h2 {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+.center p {
+    text-align: center;
+    margin: 4%;
+    padding: 1em;
+}
+
+p { 
+    font-family: "Outfit", sans-serif; 
+    color: rgb(255, 255, 255);
+} 
+
+nav ul {
+    border: 1px solid #F7B738;
+    background-color: #001A4B;
+    display: flex;
+    list-style-type: none;
+    padding: 1em;
+}
+
+nav a { 
+    text-decoration: none;
+    padding: 1em;
+}
+
+a:link {
+    color:rgb(255, 255, 255);
+    transition: all 0.5s ease 0.2s;
+}
+
+a:visited {
+    color: rgb(216, 216, 216);
+}
+
+a:focus {
+    color: rgb(255, 17, 0);
+}
+
+a:hover {
+    color: #F7B738;
+}
+
+a:active {
+    color: #F7B738;
+}
+
+a {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+a:hover {
+    transform: scale(1.2) rotate(10deg);
+}
+
+nav a:hover {
+    background-color: rgba(161, 161, 161, 0.534);
+}
+
+section {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 2rem;
+}
+
+section div {
+    width: 70%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 1em;
+    font-family: "Outfit", sans-serif;
+}
+
+main {
+    background-color: #001A4B;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.zoom-in {
+    animation: zoomIn 2s;
+}
+
+footer {
+    background-color: rgb(184, 184, 184);
+    position: absolute;
+    width: 100%;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aflevering {
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.insta{
+    width: 30%;
+    height: 30%;
+    padding: 2em;
+}
+
+.tiktok {
+    width: 30%;
+    height: 30;
+    padding: 2em;
+}
+
+.snapchat {
+    width: 30%;
+    height: 30;
+    padding: 2em;
+}
+
+.media {
+    display: flex;
+    justify-content: center; 
+    justify-content: space-between;
+}
+
+.ats {
+    display: flex;
+    justify-content: center; 
+    justify-content: space-between;
+}
+
+section div {
+    text-align: left;
+}
+
+img {
+    width: 100%;
+}
+
+.persoon {
+    width: 70%;
+    margin: 10px auto;
+    text-align: left; 
+    background-color: #122b5a;
+    border: 4px solid #F7B738;
+}
+
+.persoon div {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.persoon p {
+    text-align: left;
+}
+
+.persoon img {
+    width: 40%;
+}
+
+.tekstaflevering {
+    width: 80%;
+    margin: 20px auto;
+    text-align: left; 
+    background-color: #122b5a;
+    border: 2px solid #F7B738;
+} 
+
+.tekstaflevering div {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
